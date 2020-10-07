@@ -1,4 +1,4 @@
-$nodeJsPath = '/var/www/html/projectfolder/js/nodefunc.js';
+$nodeJsPath = 'app.js';
 
 $ret = exec("node ".$nodeJsPath.' 2>&1', $out, $err);
 echo "OUT: ".json_encode($out);
